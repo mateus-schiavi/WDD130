@@ -88,9 +88,9 @@ nav {
   border: none;
   padding:10px;
 }
-box {
+.hero-png{
   margin: auto;
-  width:40%;
+  width: 0%;
   border: none;
   padding: 10px;
 }
