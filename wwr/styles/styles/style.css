@@ -11,20 +11,20 @@ p {
   text-align: center;
 }
 .icon {
-  margin: left;
-  width: 5%;
+  margin: right;
+  width: 10%;
   border: none;
   padding: 10px;
 }
 .rivers-card {
   margin: auto;
-  width: 50%;
+  width: 40%;
   border: none;
   padding: 10px;
 } 
 .camping-card{
   margin: auto;
-  width: 50%;
+  width: 40%;
   border: none;
   padding: 10px;
 }
@@ -36,26 +36,61 @@ p {
 }
 .rapids-card {
   margin: auto;
-  width:50%;
+  width:40%;
   border: none;
   padding: 10px;
 }
 .msg{
   text-align: center;
-  width: 80%;
+  width: 90%;
+  border: none;
+  padding:10px;
+}
+h4 {
+  text-align: center;
+  width: 98%;
   border: none;
   padding:10px;
 }
 .home-title {
   text-align: center;
-  width: 80%;
+  width: 95.5%;
   border: none;
   padding:10px;
 }
-.hero {
+.div {
+  text-align: center;
+  width: 94.5%;
+  border: none;
+  padding:10px;
+}
+.button-box {
+  text-align: center;
+  width: 96%;
+  border: none;
+  padding:10px;
+}
+.social {
+  text-align: center;
+  width: 90%;
+  border: none;
+  padding:10px;
+}
+h3 {
+  text-align: center;
+  width: 90%;
+  border: none;
+  padding:10px;
+}
+nav {
+  text-align: center;
+  width: 90%;
+  border: none;
+  padding:10px;
+}
+box {
   margin: auto;
-  width: 80%;
+  width:40%;
   border: none;
-  padding:10px;
+  padding: 10px;
 }
-
