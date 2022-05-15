@@ -58,9 +58,9 @@ h4 {
   border: none;
   padding:10px;
 }
-.div {
-  text-align: center;
-  width: 94.5%;
+hero-img {
+  margin: center;
+  width: 60%;
   border: none;
   padding:10px;
 }
@@ -87,10 +87,4 @@ nav {
   width: 90%;
   border: none;
   padding:10px;
-}
-src {
-  margin: auto;
-  width: 60%;
-  border: none;
-  padding: 10px;
 }
