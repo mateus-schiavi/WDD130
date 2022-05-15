@@ -1,14 +1,15 @@
 body {
-  background-color: lightblue;
+  background-color: #fcfbfb;
 }
-
+header {
+  background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+  background-color: black;
+}
 h1 {
   color: navy;
   margin-left: 20px;
-}
-p {
-  color: red;
-  text-align: center;
 }
 .icon {
   margin: right;
@@ -42,6 +43,7 @@ p {
 }
 .msg{
   text-align: center;
+  background-color:rgba(20,30,13, .7);
   width: 90%;
   border: none;
   padding:10px;
@@ -58,12 +60,6 @@ h4 {
   border: none;
   padding:10px;
 }
-hero-img {
-  margin: center;
-  width: 60%;
-  border: none;
-  padding:10px;
-}
 .button-box {
   text-align: center;
   width: 96%;
@@ -71,20 +67,22 @@ hero-img {
   padding:10px;
 }
 .social {
-  text-align: center;
+  text-align: left;
   width: 90%;
   border: none;
   padding:10px;
 }
 h3 {
-  text-align: center;
+  text-align: left;
+  background-color:rgba(20,30,13, .7);
   width: 90%;
   border: none;
   padding:10px;
 }
-nav {
-  text-align: center;
-  width: 90%;
+a {
+  text-align: left;
+  color: #fcfbfb;
+  width: 80%;
   border: none;
   padding:10px;
 }
