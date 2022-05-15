@@ -44,7 +44,7 @@ h1 {
 .msg{
   text-align: center;
   background-color:rgba(20,30,13, .7);
-  width: 90%;
+  width: 100%;
   border: none;
   padding:10px;
 }
@@ -74,7 +74,6 @@ h4 {
 }
 h3 {
   text-align: left;
-  background-color:rgba(20,30,13, .7);
   width: 90%;
   border: none;
   padding:10px;
@@ -85,4 +84,10 @@ a {
   width: 80%;
   border: none;
   padding:10px;
+}
+#hero-img {
+  width: 100%;
+}
+footer {
+  background-color:rgba(20,30,13, .7); ;
 }
