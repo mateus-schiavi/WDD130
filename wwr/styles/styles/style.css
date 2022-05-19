@@ -1,93 +1,85 @@
-body {
-  background-color: #fcfbfb;
-}
-header {
-  background-color:rgba(20,30,13, .7);
-}
-nav a:hover {
-  background-color: black;
-}
-h1 {
-  color: navy;
-  margin-left: 20px;
-}
-.icon {
-  margin: auto;
-  width: 10%;
-  border: none;
-  padding: 10px;
-}
-.rivers-card {
-  margin: auto;
-  width: 40%;
-  border: none;
-  padding: 10px;
-} 
-.camping-card{
-  margin: auto;
-  width: 40%;
-  border: none;
-  padding: 10px;
-}
-.logo{
-  margin: auto;
-  width: 5%;
-  border: none;
-  padding: 10px;
-}
-.rapids-card {
-  margin: auto;
-  width:40%;
-  border: none;
-  padding: 10px;
-}
-.msg{
-  text-align: center;
-  background-color:rgba(20,30,13, .7);
-  width: 100%;
-  border: none;
-  padding:10px;
-}
-h4 {
-  text-align: center;
-  width: 98%;
-  border: none;
-  padding:10px;
-}
-.home-title {
-  text-align: center;
-  width: 95.5%;
-  border: none;
-  padding:10px;
-}
-.button-box {
-  text-align: center;
-  width: 96%;
-  border: none;
-  padding:10px;
-}
-.social {
-  text-align: left;
-  width: 90%;
-  border: none;
-  padding:10px;
-}
-h3 {
-  text-align: left;
-  width: 90%;
-  border: none;
-  padding:10px;
-}
-a {
-  text-align: left;
-  color: #fcfbfb;
-  width: 80%;
-  border: none;
-  padding:10px;
-}
-#hero-img {
-  width: 100%;
-}
-footer {
-  background-color:rgba(20,30,13, .7);
-}
+
+
+#content{
+  max-width: fit-content;
+  margin: 0 auto;
+ 
+ }
+ nav a{
+ text-align: center;   
+ color: #fcfbfb;
+ text-decoration: none;
+ }
+ #hero-msg h1, #hero-msg h4{
+ text-align: center;
+ }
+ .button-box{
+ text-align: center;
+ }
+ main section{
+ text-align: center;    
+ }
+ #background {
+     height: 725px;
+ }
+ body {
+     background-color: #fcfbfb; 
+ }
+ header {
+     background-color: #64919f;
+     
+ 
+ }
+ nav a:hover {
+     background-color: #A35A3E;
+     color: black;
+ }
+ .book, .join{
+    background-color: #85cce2;    
+    text-decoration: none;
+ }
+ .book:hover, .join:hover{
+     background-color: #A35A3E;  
+ }
+ #background{
+     background-color: #85cce2; 
+ }
+ .msg{
+     background-color: #64919f;  
+ }
+ footer{
+     background-color: #3e3e3e;   
+ }
+ .home-title{
+    color: black;
+ }
+ h4{
+    color: black;  
+ }
+ .book, .join{
+   color: black;
+ 
+ }
+ .book:hover, .join:hover{
+   color: #fcfbfb;   
+ }
+ .msg h2{
+   color: black;
+ }
+ .msg p{
+   color: black; 
+ }
+ footer h3{
+   color: #fcfbfb;
+ }
+ footer a{
+   color: #fcfbfb;
+   text-decoration: none;
+ }
+ footer a:hover {
+   color: black;
+ }
+ #hero-img{
+     width: 100%;
+ }
+ 
