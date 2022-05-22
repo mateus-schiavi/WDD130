@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 #content{
  max-width: 1600px;
@@ -7,7 +7,7 @@
 }
 nav a{
 text-align: center;   
-color: #fcfbfb;
+color: #911f1f;
 text-decoration: none;
 padding: 35px;
 }
@@ -24,7 +24,7 @@ text-align: center;
     height: 725px;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: rgb(245, 243, 243); 
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 22px;
     margin: 0;
@@ -33,12 +33,12 @@ body {
 
   }
 header {
-    background-color: #64919f;
+    background-color: #c7d0d2;
     
 
 }
 nav a:hover {
-    background-color: #A35A3E;
+    background-color: #e0cec7;
     color: #000000;
 }
 .book, .join{
@@ -53,14 +53,14 @@ nav a:hover {
 
   }
 .book:hover, .join:hover{
-    background-color: #A35A3E;  
+    background-color: #d1c7c3;  
 }
 #background{
-    background-color: #85cce2; 
+    background-color: grey; 
 
   }
 .msg{
-    background-color: #64919f;  
+    background-color: white;  
     line-height: 1.5em;
     padding: 35px;
   }
@@ -78,7 +78,7 @@ footer{
  
   }
 h4{
-   color: #A35A3E;  
+   color: white;  
 }
 
 .book:hover, .join:hover{
@@ -126,7 +126,7 @@ padding-top: 15px;
 margin: 200px 0;
 }
 .card-img {
-  border: 10px solid #85cce2;
+  border: 10px solid white;
 }
 main section img {
   box-sizing: border-box;
