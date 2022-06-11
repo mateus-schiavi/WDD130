@@ -37,7 +37,7 @@ main section {
 
 body {
   background-color: #fcfbfb;
-  font-family: 'Kdam Thmor Pro', 'Vast Shadow', sans-serif;
+  font-family: 'Kdam Thmor Pro', 'Vast Shadow', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 22px;
   margin: 0;
   padding: 0;
@@ -61,7 +61,7 @@ nav a:hover {
 .join {
   background-color: #85cce2;
   text-decoration: none;
-  font-family: 'Open Sans', 'Helvetica', 'sans-serif';
+  font-family: 'Kdam Thmor Pro', 'Vast Shadow', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
   padding: 15px 30px;
   color: #000000;
@@ -98,7 +98,7 @@ footer {
 
 .home-title {
   color: #A35A3E;
-  font-family: 'Schoolbell', 'Helvetica', 'sans-serif';
+  font-family: 'Kdam Thmor Pro', 'Vast Shadow', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 2em;
   margin-top: 10px;
 
@@ -115,7 +115,7 @@ h4 {
 
 .msg p {
   color: oldlace;
-  font-family: 'Open Sans', 'Helvetica', 'sans-serif';
+  font-family: 'Kdam Thmor Pro', 'Vast Shadow', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: .8em;
   padding-bottom: 15px;
 
