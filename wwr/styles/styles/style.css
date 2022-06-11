@@ -1,16 +1,10 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
 
 body {
   background-color: #fcfbfb;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Schoolbell&display=swap');
-
+}
 #content {
   max-width: 1600px;
   margin: 0 auto;
-
->>>>>>> 38bb9a4c48eb77f5cd86bb544b840edaed5a3f49
 }
 
 nav a {
