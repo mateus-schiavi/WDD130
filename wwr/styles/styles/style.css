@@ -2,6 +2,7 @@
 body {
   background-color: #fcfbfb;
 }
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
 #content {
   max-width: 1600px;
   margin: 0 auto;
