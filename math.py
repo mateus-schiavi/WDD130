@@ -1,65 +1,34 @@
 """
-File: teach13_sample.py
-Author: Brother Burton
+File: weather_temperature
+Author: Mateus Schiavi
 
-Purpose: Use functions to calculate areas.
+Purpose: Use functions to calculate temperatue.
 """
 
 import math
 
-def compute_area_square(side):
-    area = compute_area_rectangle(side, side)
-    return area
-
-def compute_area_rectangle(length, width):
-    return length * width
-
-def compute_area_triangle(side):
-    area = compute_area_triangle(side, side)
-    return area
-
-def compute_area_circle(radius):
-    return math.pi * radius * radius
-
-def compute_area(shape, value1, value2=0):
-    area = -1
-
-    if shape == "square":
-        area = compute_area_square(value1)
-    elif shape == "circle":
-        area = compute_area_circle(value1)
-    elif shape == "rectangle":
-        area = compute_area_rectangle(value1, value2)
-    elif shape == "triangle":
-        area = compute_area_triangle(value1, value2)
-    
-    return area
+def result(V,T,degree):
+    if degree.upper() == 'C':
+        T = (T * (9/5)) + 32
+    elif degree.upper() == 'K':
+        T = T - 273.15
+    elif degree.upper() == 'R':
+        T = (T * (9/4)) + 32
+    elif degree.upper == 'Ra':
+        T = T - 459.67
+    elif degree.upper == 'N':
+        T = (T *(5.4545)) + 32
+    answer = 35.74 + (0.6215 * T) - (35.75*(V**.16)) + (0.4275*T*(V**.16))
+    return answer
 
 
-# The main program starts here...
-shape = ""
 
-while shape != "quit":
-    shape = input("What shape do you have? ")
+def main():
+    wind_list = [5,10,15,20,25,30,35,40,45,50,55,60]
+    temp = float(input(f"\nWhat is the temperature? "))
+    degree = input(f"Fahrenheit, Celsius, Kelvin, Réaumur, Rankine or Newton (F/C/K/R/Ra/N)? ")
+    for wind in wind_list:
+        chill = result(wind, temp, degree)
+        print(f"At temperature {temp:.0f}{degree}, and  speed {wind} mph, the windchill is: {chill:.2f}F")
 
-    # Convert it to lower case once, so we don't have to keep converting it
-    shape = shape.lower()
-
-    if shape == "square":
-        side = float(input("What is the length of the side? "))
-        area = compute_area(shape, side)
-        print(f"The area is {area} m²")
-    elif shape == "rectangle":
-        length = float(input("What is the length? "))
-        width = float(input("What is the width? "))
-        area = compute_area(shape, length, width)
-        print(f"The area is {area} m²")
-    elif shape == "circle":
-        radius = float(input("What is the radius? "))
-        area = compute_area(shape, radius)
-        print(f"The area is {area} m²")
-    elif shape == "triangle":
-        basis = float(input("What is the basis? "))
-        height = float(input("What is the height? "))
-        area = compute_area(basis, height)
-        print(f"The area is {area} m²")
+main()
