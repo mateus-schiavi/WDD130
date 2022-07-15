@@ -32,3 +32,6 @@ def main():
         print(f"At temperature {temp:.0f}{degree}, and  speed {wind} mph, the windchill is: {chill:.2f}F")
 
 main()
+
+'''In the IS (International System) the scales used for temperature are Fahrenheit (°F), Celsius (°C) and Kelvin (K)
+But, there are other temperature scales, like Newton (N), Rankine(Ra) and Réaumur(R)'''
