@@ -1,2 +1,22 @@
 {
+    "configurations": [
+        {
+            "type": "ikp3db",
+            "request": "launch",
+            "name": "Launch (Ikp3db)",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "pythonPath": "${config:python.pythonPath}"
+        },
+    {
+        "type": "ikp3db",
+        "request": "attach",
+        "name": "Attach (Ikp3db)",
+        "sourceRoot": "${workspaceFolder}",
+        "host": "127.0.0.1",
+        "port": 15470
+
+
+    }
+    ]
 }
