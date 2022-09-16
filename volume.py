@@ -5,7 +5,7 @@
 import math
 
 print("Welcome to Tire Volume Calculator")
-print(":::::::::::::::::::::::::::::::::")
+print("|:|:|:|:|:|:|:|:|:|:|:|:|:|:|:|:|")
 
 def main():
     width = int(input("Enter the width of the tire in mm: "))
