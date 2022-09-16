@@ -5,7 +5,7 @@ Purpose: Practice finding items in files
 
 chosen_volume = input("Which volume of scripture would you like to learn about?")
 
-max_chapters = -1
+max_chapters = 0
 book_with_max = ""
 
 #Open the file with the information
