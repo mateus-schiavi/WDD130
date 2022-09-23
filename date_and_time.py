@@ -49,5 +49,5 @@ while running:
 current_date_and_time = datetime.now()
 
 with open("tire_volume.txt", "at") as dimens_file:
-    print(f"\n{current_date_and_time}\n{width_tire}, {aspect_tire}, {diameter_tire}, {volume}\n{phone_number}", file=dimens_file)
+    print(f"\n{current_date_and_time}\n{width}, {respective_ratio}, {respective_diameter}, {volume}\n{phone_number}", file=dimens_file)
 main()
