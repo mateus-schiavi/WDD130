@@ -11,7 +11,7 @@ volume_p1 = math.pi * (width ** 2) * aspect_ratio * (width * aspect_ratio + (254
 
 print(f'The respective volume is {volume_p1:.2f} liters')
 
-with open('volumes.txt', 'at') as volumestxt:
+with open('volumes.txt') as volumestxt:
     volumestxt.write(f'Width: {width}. Respective Ratio: {aspect_ratio}. Respective Diameter: {diameter}. \n')
     volumestxt.write(f'The respective volume is {volume_p1:.2f} liters\n')
     volumestxt.write(f"{respective_dateandtime_}\n")
