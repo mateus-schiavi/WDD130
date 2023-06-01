@@ -24,7 +24,7 @@ land_lives_computed = 0
 land_select_twelvemonth = 0
 
 #Code which you be executed with the variables
-
+ 
 with open('life_expectancy.csv') as life_expectancy:
     
     for row in life_expectancy:
