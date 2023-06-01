@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   justify-content: center;
-}
+} 
 
 #content {
   max-width: 1600px;
